@@ -1,0 +1,11 @@
+var createPage = require('modules/createPage2');
+
+module.exports = createPage({
+  name: {{{name}}},
+  title: {{{title}}},
+  selectors: {},
+  facets: {},
+  render: function(vm) {
+    return;
+  }
+});
